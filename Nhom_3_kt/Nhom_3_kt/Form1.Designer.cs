@@ -38,72 +38,59 @@
             // Username
             // 
             this.Username.AutoSize = true;
-            this.Username.Location = new System.Drawing.Point(179, 105);
-            this.Username.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Username.Location = new System.Drawing.Point(239, 129);
             this.Username.Name = "Username";
-<<<<<<< HEAD
-            this.Username.Size = new System.Drawing.Size(55, 13);
-=======
-            this.Username.Size = new System.Drawing.Size(112, 20);
->>>>>>> e508e521ef2591f8989e14aa1eb7003bd2a12442
+            this.Username.Size = new System.Drawing.Size(92, 16);
             this.Username.TabIndex = 0;
             this.Username.Text = "tên đăng nhập";
             // 
             // textboxusername
             // 
-            this.textboxusername.Location = new System.Drawing.Point(249, 103);
-            this.textboxusername.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.textboxusername.Location = new System.Drawing.Point(332, 127);
+            this.textboxusername.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.textboxusername.Name = "textboxusername";
-            this.textboxusername.Size = new System.Drawing.Size(265, 20);
+            this.textboxusername.Size = new System.Drawing.Size(352, 22);
             this.textboxusername.TabIndex = 1;
             // 
             // Matkhau
             // 
             this.Matkhau.AutoSize = true;
-            this.Matkhau.Location = new System.Drawing.Point(179, 185);
-            this.Matkhau.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Matkhau.Location = new System.Drawing.Point(239, 228);
             this.Matkhau.Name = "Matkhau";
-<<<<<<< HEAD
-            this.Matkhau.Size = new System.Drawing.Size(53, 13);
-=======
-            this.Matkhau.Size = new System.Drawing.Size(75, 20);
->>>>>>> e508e521ef2591f8989e14aa1eb7003bd2a12442
+            this.Matkhau.Size = new System.Drawing.Size(61, 16);
             this.Matkhau.TabIndex = 0;
             this.Matkhau.Text = "mật khẩu";
             // 
             // textboxpassword
             // 
-            this.textboxpassword.Location = new System.Drawing.Point(249, 182);
-            this.textboxpassword.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.textboxpassword.Location = new System.Drawing.Point(332, 224);
+            this.textboxpassword.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.textboxpassword.Name = "textboxpassword";
-            this.textboxpassword.Size = new System.Drawing.Size(265, 20);
+            this.textboxpassword.Size = new System.Drawing.Size(352, 22);
             this.textboxpassword.TabIndex = 1;
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(249, 244);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnlogin.Location = new System.Drawing.Point(332, 300);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnlogin.Name = "btnlogin";
-<<<<<<< HEAD
-            this.btnlogin.Size = new System.Drawing.Size(61, 31);
-=======
-            this.btnlogin.Size = new System.Drawing.Size(191, 48);
->>>>>>> e508e521ef2591f8989e14aa1eb7003bd2a12442
+            this.btnlogin.Size = new System.Drawing.Size(81, 38);
             this.btnlogin.TabIndex = 2;
             this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 425);
+            this.ClientSize = new System.Drawing.Size(1065, 523);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.textboxpassword);
             this.Controls.Add(this.Matkhau);
             this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.Username);
-            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
