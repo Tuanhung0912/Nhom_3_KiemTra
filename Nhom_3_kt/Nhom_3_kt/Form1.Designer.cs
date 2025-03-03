@@ -41,9 +41,13 @@
             this.Username.Location = new System.Drawing.Point(179, 105);
             this.Username.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Username.Name = "Username";
+<<<<<<< HEAD
             this.Username.Size = new System.Drawing.Size(55, 13);
+=======
+            this.Username.Size = new System.Drawing.Size(112, 20);
+>>>>>>> e508e521ef2591f8989e14aa1eb7003bd2a12442
             this.Username.TabIndex = 0;
-            this.Username.Text = "Username";
+            this.Username.Text = "tên đăng nhập";
             // 
             // textboxusername
             // 
@@ -59,9 +63,13 @@
             this.Matkhau.Location = new System.Drawing.Point(179, 185);
             this.Matkhau.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Matkhau.Name = "Matkhau";
+<<<<<<< HEAD
             this.Matkhau.Size = new System.Drawing.Size(53, 13);
+=======
+            this.Matkhau.Size = new System.Drawing.Size(75, 20);
+>>>>>>> e508e521ef2591f8989e14aa1eb7003bd2a12442
             this.Matkhau.TabIndex = 0;
-            this.Matkhau.Text = "Password";
+            this.Matkhau.Text = "mật khẩu";
             // 
             // textboxpassword
             // 
@@ -76,9 +84,13 @@
             this.btnlogin.Location = new System.Drawing.Point(249, 244);
             this.btnlogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnlogin.Name = "btnlogin";
+<<<<<<< HEAD
             this.btnlogin.Size = new System.Drawing.Size(61, 31);
+=======
+            this.btnlogin.Size = new System.Drawing.Size(191, 48);
+>>>>>>> e508e521ef2591f8989e14aa1eb7003bd2a12442
             this.btnlogin.TabIndex = 2;
-            this.btnlogin.Text = "Login";
+            this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
