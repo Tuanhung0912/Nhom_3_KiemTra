@@ -28,33 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.Username = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.Matkhau = new System.Windows.Forms.Label();
+            this.txtmatkhau = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // Username
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(268, 162);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "User Name";
+            this.Username.AutoSize = true;
+            this.Username.Location = new System.Drawing.Point(238, 130);
+            this.Username.Name = "Username";
+            this.Username.Size = new System.Drawing.Size(70, 16);
+            this.Username.TabIndex = 0;
+            this.Username.Text = "Username";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(363, 162);
+            this.txtUserName.Location = new System.Drawing.Point(332, 127);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(395, 26);
+            this.txtUserName.Size = new System.Drawing.Size(352, 22);
             this.txtUserName.TabIndex = 1;
+            // 
+            // Matkhau
+            // 
+            this.Matkhau.AutoSize = true;
+            this.Matkhau.Location = new System.Drawing.Point(238, 227);
+            this.Matkhau.Name = "Matkhau";
+            this.Matkhau.Size = new System.Drawing.Size(62, 16);
+            this.Matkhau.TabIndex = 0;
+            this.Matkhau.Text = "Mật Khẩu";
+            // 
+            // txtmatkhau
+            // 
+            this.txtmatkhau.Location = new System.Drawing.Point(332, 224);
+            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtmatkhau.Name = "txtmatkhau";
+            this.txtmatkhau.Size = new System.Drawing.Size(352, 22);
+            this.txtmatkhau.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 654);
+            this.ClientSize = new System.Drawing.Size(1066, 523);
+            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.Matkhau);
             this.Controls.Add(this.txtUserName);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Username);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -64,8 +87,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Username;
         private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Label Matkhau;
+        private System.Windows.Forms.TextBox txtmatkhau;
     }
 }
 
