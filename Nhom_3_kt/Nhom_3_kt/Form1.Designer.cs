@@ -39,9 +39,9 @@
             this.Username.AutoSize = true;
             this.Username.Location = new System.Drawing.Point(238, 130);
             this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(70, 16);
+            this.Username.Size = new System.Drawing.Size(92, 16);
             this.Username.TabIndex = 0;
-            this.Username.Text = "Username";
+            this.Username.Text = "tên đăng nhập";
             // 
             // txtUserName
             // 
@@ -56,9 +56,9 @@
             this.Matkhau.AutoSize = true;
             this.Matkhau.Location = new System.Drawing.Point(238, 227);
             this.Matkhau.Name = "Matkhau";
-            this.Matkhau.Size = new System.Drawing.Size(62, 16);
+            this.Matkhau.Size = new System.Drawing.Size(61, 16);
             this.Matkhau.TabIndex = 0;
-            this.Matkhau.Text = "Mật Khẩu";
+            this.Matkhau.Text = "mật khẩu";
             // 
             // txtmatkhau
             // 
