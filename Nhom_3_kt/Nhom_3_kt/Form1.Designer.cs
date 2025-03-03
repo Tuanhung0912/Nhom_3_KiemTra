@@ -40,11 +40,7 @@
             this.Username.AutoSize = true;
             this.Username.Location = new System.Drawing.Point(268, 162);
             this.Username.Name = "Username";
-<<<<<<< HEAD
-            this.Username.Size = new System.Drawing.Size(92, 16);
-=======
-            this.Username.Size = new System.Drawing.Size(83, 20);
->>>>>>> debbf034b1a2e4a7107a6b40f8f93936c451cde1
+            this.Username.Size = new System.Drawing.Size(112, 20);
             this.Username.TabIndex = 0;
             this.Username.Text = "tên đăng nhập";
             // 
@@ -61,15 +57,9 @@
             this.Matkhau.AutoSize = true;
             this.Matkhau.Location = new System.Drawing.Point(268, 284);
             this.Matkhau.Name = "Matkhau";
-<<<<<<< HEAD
-            this.Matkhau.Size = new System.Drawing.Size(61, 16);
+            this.Matkhau.Size = new System.Drawing.Size(75, 20);
             this.Matkhau.TabIndex = 0;
             this.Matkhau.Text = "mật khẩu";
-=======
-            this.Matkhau.Size = new System.Drawing.Size(78, 20);
-            this.Matkhau.TabIndex = 0;
-            this.Matkhau.Text = "Password";
->>>>>>> debbf034b1a2e4a7107a6b40f8f93936c451cde1
             // 
             // txtpassword
             // 
@@ -83,9 +73,9 @@
             // 
             this.btnlogin.Location = new System.Drawing.Point(374, 376);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(91, 48);
+            this.btnlogin.Size = new System.Drawing.Size(191, 48);
             this.btnlogin.TabIndex = 2;
-            this.btnlogin.Text = "Login";
+            this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
